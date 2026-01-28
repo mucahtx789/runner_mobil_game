@@ -1,16 +1,23 @@
-# game
+# Runner Mobil Game
 
-A new Flutter project.
+Flutter ile geliştirilmiş, dinamik engellere sahip sonsuz koşu oyunu. Akıcı mekanikler ve çoklu dil destekli bir projedir.
 
-## Getting Started
+##  Ekran Görüntüleri
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img src="ss1.jpg" width="22%"> 
+  <img src="ss2.jpg" width="22%"> 
+  <img src="ss3.jpg" width="22%"> 
+  <img src="ss4.jpg" width="22%">
+</p>
+##  Uygulama Bilgileri
+- **Framework:** Flutter
+- **Veri Saklama:** `Shared Preferences` (Skor ve Altın yönetimi)
+- **Dil Yönetimi:** JSON tabanlı `LocalizationService`
+- **Arayüz:** `flutter_screenutil` ile tüm ekran boyutlarına tam uyum
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Özellikler
+* **Sonsuz Döngü:** Oyun yandığınız ana kadar devam eder ve kademeli olarak zorlaşır.
+* **Yüksek Skor Sistemi:** En iyi skorunuzu otomatik olarak cihaz hafızasına kaydeder.
+* **7 Dil Desteği:** Türkçe, İngilizce, Almanca, İspanyolca, İtalyanca, Portekizce ve Rusça dilleri arasında anlık geçiş.
+* **Dinamik Kontroller:** Mobil cihazlar için optimize edilmiş, kaydırma hareketlerine duyarlı kontrol sistemi.

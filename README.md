@@ -10,7 +10,8 @@ Flutter ile geliştirilmiş, dinamik engellere sahip sonsuz koşu oyunu. Akıcı
   <img src="ss3.jpg" width="22%"> 
   <img src="ss4.jpg" width="22%">
 </p>
-##  Özellikler
+
+##  Bilgiler
 - **Framework:** Flutter
 - **Veri Saklama:** `Shared Preferences` (Skor ve Altın yönetimi)
 - **Dil Yönetimi:** JSON tabanlı `LocalizationService`

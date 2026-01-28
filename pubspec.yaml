@@ -1,0 +1,53 @@
+name: game
+description: "A new Flutter project."
+
+# Yayınlama ayarları
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.7 <4.0.0'
+
+dependencies:
+  shared_preferences: ^2.2.2
+  google_sign_in: ^6.1.6
+  flutter:
+    sdk: flutter
+
+  # İkonlar için standart paket
+  cupertino_icons: ^1.0.8
+
+  # Responsive tasarım (tüm telefonlara uyumluluk) için gerekli
+  flutter_screenutil: ^5.9.0
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  # Material Design ikonlarını ve bileşenlerini kullanabilmek için
+  uses-material-design: true
+
+  # Resimlerin ve dil dosyalarının bulunduğu ana klasörler
+  assets:
+    - assets/lang/
+    - assets/images/
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/rocket.png
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/splash/rocket.png
+
+  android: true
+  ios: true
+
+  android_12:
+    color: "#000000"
+    image: assets/splash/rocket.png
+

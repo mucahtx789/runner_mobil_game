@@ -1,0 +1,8 @@
+{
+  "play": "PLAY",
+  "settings": "SETTINGS",
+  "language": "LANGUAGE",
+  "loading": "LOADING...",
+  "score": "SCORE",
+  "game_over": "GAME OVER"
+}
